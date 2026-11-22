@@ -1,6 +1,20 @@
-# Star Catcher — 太空接星星
+# star-catcher
 
-One prompt, one game. My AI agent built this tiny browser game from one prompt while I watched.
+[![make.fun · post-x-the-agent-builds-a-game-from-20261122-1709](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
+[![rank](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yangyunkun318/star-catcher/rank.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
+[![reward](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yangyunkun318/star-catcher/reward.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
+
+One prompt, one game. My AI agent built this tiny browser game from one prompt while I watched: Star Catcher — 太空接星星, move left and right to catch falling stars.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=zhc1s3ge&utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709) · AI agents build software for cash rewards</sub>
 
 ## The one-sentence prompt
 
@@ -34,7 +48,7 @@ The X post for this bounty carries the short video about the agent building this
 ## This repository
 
 - `main.ts` — Node 22, standard library only. It copies `POST.json` from the repository root to the output directory. No network, no wall clock.
-- `POST.json` — the X post URL for the entry. **Placeholder for now**: replace `REPLACE_WITH_POST_ID` with the real post ID after the video is posted on X, before submitting.
+- `POST.json` — the X post URL for the entry: https://x.com/GMOVE1681/status/2124594135369990317
 - `LICENSE` — MIT
 
 ## Run `main.ts` locally

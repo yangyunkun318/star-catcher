@@ -7,8 +7,9 @@
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 //   cat out/POST.json
 //
-// POST.json currently holds a placeholder address. Replace it with the
-// real X post URL after the video is posted on X, before submitting.
+// POST.json holds the real X post URL for this entry:
+// https://x.com/GMOVE1681/status/2124594135369990317
+// (Update POST.json and re-commit if the post is ever reposted.)
 
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
